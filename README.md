@@ -1,5 +1,10 @@
 <h2 align="center">
     <p>Fine-tune Wav2Vec2 with Transformers</p>
+    <div>
+        <img src="https://img.shields.io/badge/Python-3.6-green.svg"></img>
+    	<img src="https://img.shields.io/badge/Pytorch-1.5.1-orange"></img>
+		<img src="https://img.shields.io/badge/Transformers-3.4.0-blue"></img>
+    </div>
 </h2>
 
 一份简易的Wav2Vec2微调代码。
@@ -48,7 +53,7 @@
 ```
 /home/username/aishell/BAC009S0002W0122\t而对楼市成交抑制作用最大的限购
 /home/username/aishell/BAC009S0002W0123\t也成为地方政府的眼中钉
-/home/username/aishell/BAC009S0002W0124t自六月底呼和浩特市率先宣布取消限购后
+/home/username/aishell/BAC009S0002W0124\t自六月底呼和浩特市率先宣布取消限购后
 ```
 
 训练数据以`train.txt`和`dev.txt`命名，放在`./data`路径下：
@@ -74,7 +79,3 @@
 先在`recognize.py`中设置`MODEL_DIR`与`wav_path`，然后运行：
 
 `python test.py`
-
-### 4.测试环境
-
-Python3.6，Pytorch1.5.1，transformers3.4.0
